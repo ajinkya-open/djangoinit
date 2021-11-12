@@ -150,4 +150,18 @@ REST_FRAMEWORK = {
 
 
 
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+
+
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+DEFAULT_FROM_EMAIL = "connect@yorvc.com"
+EMAIL_HOST = "server.perabytesserver.com"
+EMAIL_HOST_USER = "connect@yorvc.com"
+EMAIL_HOST_PASSWORD = "12Etc32@@%"
+EMAIL_PORT = 465
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+
 
